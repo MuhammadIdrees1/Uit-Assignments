@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form action="backend.js">
+      <table>
+        <tr>
+          <td><label for="User Name:">User Name:</label></td>
+          <td class="padding">
+            <input type="text" name="User Name:" id="User Name:" size="15" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Password:">Password:</label></td>
+          <td class="padding">
+            <input
+              type="Password:"
+              name="User Name:"
+              id="Password:"
+              size="15"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Date of Birth:">Date of Birth:</label></td>
+          <td class="padding">
+            <input type="date" name="Date of Birth:" id="Date of Birth:" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Web URL:">Web URL:</label></td>
+          <td class="padding">
+            <input type="url" name="Web URL:" id="Web URL:" size="15" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Address:">Address:</label></td>
+          <td class="padding">
+            <input type="text" name="Address:" id="Address:" size="15" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="City:">City:</label></td>
+          <td class="padding">
+            <select name="City:" id="City:">
+              <option value="Islamabad">Islamabad</option>
+              <option value="Karachi" selected>Karachi</option>
+              <option value="Lahore">Lahore</option>
+              <option value="Faisalabad">Faisalabad</option>
+              <option value="Other">Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="State:">State:</label></td>
+          <td class="padding">
+            <input type="text" name="State:" id="State:" size="6" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Zip:"></label>Zip:</td>
+          <td class="padding">
+            <input type="tel" name="Zip:" id="Zip:" size="6" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Magazine:">Magazine:</label></td>
+          <td class="padding">
+            <select name="Magazine:" id="Magazine:" multiple>
+              <option value="Newsweek" selected>Newsweek</option>
+              <option value="Time">Time</option>
+              <option value="Fortune">Fortune</option>
+              <option value="TV Guide">TV Guide</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <div>
+        <fieldset class="field">
+          <legend>Contact Details</legend>
+          <label for="Email:">Email:</label>
+          <br />
+          <input type="email" name="Email:" size="15" />
+          <br />
+          <label for="Mobile:">Mobile:</label>
+          <br />
+          <input type="text" name="Mobile:" size="15" />
+          <br />
+          <label for="Telephone:">Telephone:</label>
+          <br />
+          <input type="tel" name="Telephone:" size="15" />
+        </fieldset>
+      </div>
+      <div>
+        <label for="Comments:">Additional Comments:</label>
+        <br />
+        <textarea
+          name="Comments:"
+          id="Comments:"
+          cols="37"
+          rows="10"
+        ></textarea>
+      </div>
+      <br>
+      <table>
+        <tr>
+          <td>Upload your profile picture:</td>
+          <td><input type="file" name="file" id="file" /></td>
+        </tr>
+        <tr>
+          <td id="padding"><input type="submit" value="Upload" /></td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="submit"
+              value="Send Your Order"
+              name="Send Your Order"
+            />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <br />
+      <br />
+      <div>
+        <label for="email">Email Address:</label>
+        <input type="email" name="" size="15" />
+      </div>
+      <div>
+        <label for="Subscription:">Subscription:</label>
+        <input type="radio" name="Subscription:" checked/>
+        <label for="1 year">1 year</label>
+        <input type="radio" name="Subscription:" />
+        <label for="2 year">2 year</label>
+      </div>
+      <div>
+        <input type="checkbox" name="checkbox" />
+        <label for="checkbox">Yes! Put me on the list!</label>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Subscribe" id="blue">
+      </div>
+    </form>
+  </body>
+</html>

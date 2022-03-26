@@ -1,0 +1,20 @@
+h1{
+    color: red;
+    text-align: center;
+}
+.first{ 
+    color: rgb(10, 10, 247);
+    text-align: center;
+}
+.second{
+    color: red;
+    text-decoration: underline;
+}
+.third{
+    color: white;
+    background-color: rgb(219, 219, 219);
+    text-indent: 15px;
+}
+.fourth{
+    text-indent: 55px;
+}
